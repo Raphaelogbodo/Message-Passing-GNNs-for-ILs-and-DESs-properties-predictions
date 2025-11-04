@@ -62,7 +62,7 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 |-----------|-----------------|
 | **Deep Learning Framework** | PyTorch, PyTorch Geometric |
 | **Cheminformatics** | RDKit, OpenBabel |
-| **Data Handling** | pandas, numpy, scikit-learn |
+| **Data Handling** | pandas, numpy, scikit-learn, Scipy |
 | **Visualization** | matplotlib, seaborn |
 | **Database Access** | NIST ILThermo data integration |
 
@@ -72,6 +72,6 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 
 - **Primary Source:** [NIST ILThermo Database](https://ilthermo.boulder.nist.gov/)
 - **Properties Modeled:** e.g., density, viscosity, conductivity, etc.
-- **Data Processing:** includes duplicate removal, missing value imputation, and molecular pairing.
+- **Data Processing:** includes duplicate removal, removing outliers, removing undefined liquids, and molecular pairing, etc..
 
 ---
