@@ -75,3 +75,11 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 - **Data Processing:** includes duplicate removal, removing outliers, removing undefined liquids, and molecular pairing, etc..
 
 ---
+
+## 📈 Results and Insights
+
+-The model demonstrates strong predictive accuracy (high R², low MAE) across multiple IL property datasets.
+
+-Transfer learning to Deep Eutectic Solvents shows promising adaptability.
+
+---
