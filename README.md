@@ -73,7 +73,7 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 - **Primary IL data (training, validaton, evaluation) from:** [NIST ILThermo Database](https://ilthermo.boulder.nist.gov/)
 - **DESs density data source for transfer learning (training, validation, evaluation) from:** https://www.sciencedirect.com/science/article/pii/S0378381222002916?via%3Dihub
 - **Additional IL density data for just testing on trained IL model from:** https://pubs.acs.org/doi/suppl/10.1021/acs.iecr.9b00130/suppl_file/ie9b00130_si_001.zip
-- **Properties Modeled:** density, viscosity, conductivity, refractive index. Only density property prediction was implemented for transfer learning for now.
+- **Properties Modeled:** density, viscosity, conductivity, refractive index. Only density prediction was implemented for transfer learning for now.
 - **Data Processing:** includes duplicate removal, removing outliers, removing undefined liquids, and molecular pairing, etc..
 
 ---
