@@ -61,7 +61,7 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 
 ## Technologies Used
 
-| Category | Tools/Libraries |
+| Category | Tools/Libraries | 
 |-----------|-----------------|
 | **Deep Learning Framework** | PyTorch, PyTorch Geometric |
 | **Cheminformatics** | RDKit, OpenBabel |
@@ -87,8 +87,8 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 
 - Transfer learning to Deep Eutectic Solvents shows promising adaptability.
 
-| Datasets | Metrics|
-|-----------|-----------------|
+| Datasets | Metrics| | | | |
+|-----------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | | R2 | RMSE | MAE | MARE | A20 |
 | **Deep Learning Framework** | PyTorch, PyTorch Geometric |
 | **Cheminformatics** | RDKit, OpenBabel |
