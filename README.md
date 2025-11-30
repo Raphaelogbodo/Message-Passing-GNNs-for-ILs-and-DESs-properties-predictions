@@ -1,5 +1,5 @@
 # Graph Neural Network for Ionic Liquids and-Deep Eutectics Solvent Property Prediction - A Cheminformatics Study
-A Deep Learning Framework for Predicting Physicochemical Properties of Ionic Liquids and Deep Eutectic Solvents using Message Passing Neural Networks (NNConv)
+A Deep Learning Framework for Predicting Physicochemical Properties of Ionic Liquids and Deep Eutectic Solvents using Message Passing Graph Neural Networks (NNConv)
 
 ## Overview
 
