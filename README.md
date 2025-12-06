@@ -119,12 +119,12 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 ## Folders and Description
 ``` 
 code/
-├── architecture.py
-├── prepare_dataset.py
-├── training.py
-├── utils.py
-├── draw_molecules.py
-├── predict.ipynb
-├── params.yaml
-└── experiment.py
+  ├── architecture.py
+  ├── prepare_dataset.py
+  ├── training.py
+  ├── utils.py
+  ├── draw_molecules.py
+  ├── predict.ipynb
+  ├── params.yaml
+  └── experiment.py
 ``` 
