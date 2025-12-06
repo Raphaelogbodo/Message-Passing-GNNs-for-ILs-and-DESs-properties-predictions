@@ -119,12 +119,18 @@ The core architecture uses the **NNConv** layer from PyTorch Geometric to learn 
 ## Folders and Description
 ``` 
 code/
-  ├── architecture.py ## contains the GNN models 
-  ├── prepare_dataset.py ## prepares dataset from ILthermo database and DES density data in data folder
-  ├── training.py
-  ├── utils.py
-  ├── draw_molecules.py
-  ├── predict.ipynb
-  ├── params.yaml
-  └── experiment.py
+  ├── architecture.py       # contains the GNN models 
+  ├── prepare_dataset.py    # prepares dataset from ILthermo database and DES density data in data folder
+  ├── training.py           # contains useful functions for model training
+  ├── utils.py              # contains utility fumctions and classes for overall workflow
+  ├── draw_molecules.py     # contains a function that displays molecule structure given a list of SMILES
+  ├── predict.ipynb         # a useful notebook for analysing trained models and predicting new datasets if provided
+  ├── params.yaml           # contains all the relevant parameter settings for the overall data prcessing, model/transfer model development, training, and testing 
+  └── experiment.py         # script for training and transfer model training.
+data                        # contains all the data used in this work. DESs data are prefixed with "des_"
+Figures                     # contains generated figures from data processing and model training and evaluation.
+textfiles                   # contains files for predictions vs target values, loss, R2, etc.
+scalers                     # contains saved scalers used on each dataset. for a dataset used for prediction, its scaler is prefixed with "predict_"
+logfiles                    # contains logs from training the models
+models                      # contains saved weights for the trained models. They are loaded for predictions after instantiating the corresponding architecture.       
 ``` 
