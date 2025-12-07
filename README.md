@@ -180,7 +180,6 @@ $ python3 code/experiment.py
  - run_refrac.sh   # refractive_index (only ILs)
 ```
 
-# Author
+## Author
 Raphael N. Ogbodo
-Linkedin: linkedin.com/in/raphael-ogbodo-37ab15145
-Connect with me on Linkedin if you have any question or want to collaborate
+Connect with me on Linkedin (https://www.linkedin.com/in/raphael-ogbodo-37ab15145/) if you have any question or want to collaborate
